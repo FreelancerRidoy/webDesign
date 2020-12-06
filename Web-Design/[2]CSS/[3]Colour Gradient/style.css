@@ -1,0 +1,20 @@
+
+
+.div-one{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background: linear-gradient(to left,#ff3202,#ff623d,#ff7f70,#ffa8a0);
+}
+.div-two{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background: linear-gradient(to top left,#0eb000,#ff2c00);
+}
+.div-three{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background: linear-gradient(to bottom,#002bff,rgba(8,53,255,0.55));
+}

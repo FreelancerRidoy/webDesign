@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table Data</title>
+</head>
+<body>
+
+           <!--CSS |=:> border-collapse: collapse; ai  prtoperty ta border bouble na houa r jonno use kora hoi-->
+<table border="1" style="border-collapse: collapse;">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Phone Number</th>
+        <th>Email Address</th>
+        <th>Salary</th>
+        <th>Address</th>
+    </tr>
+    <tr>
+        <td>Hanifur</td>
+        <td>Rahman</td>
+        <td>01867386130</td>
+        <td>ridoy86@gmail.com</td>
+        <td>326532</td>
+        <td>ussor bari,anowara,chittagong</td>
+    </tr>
+</table>
+
+<script>
+
+
+
+           // jeson array [information ke daron kora]
+          //index er controll amader hate e ace
+    var data = [
+        {   //index         //value
+            'first_name' : 'Hanifur',
+            'last_name' : 'Rahman',
+            'phone_number' : '01867386130',
+            'email_address' : 'hrridoy@gmail.com',
+        },
+        {   //index         //value
+            'first_name' : 'Rahim',
+            'last_name' : 'Ullah',
+            'phone_number' : '01837122536',
+            'email_address' : 'samaed33@gmail.com',
+        }
+    ];
+
+
+
+              //function likar system
+//  keyword  function name   , function er defination
+    function demo(getname) { //x & y are peramitter pass korlam
+
+        var z = getname+' '+'My Name';
+        // document.write(z); //function er vetore print kore dile  call korlei show korve
+ return z; //return korle onno jaigai use kora jai result ta
+
+    }
+
+
+            //function calling | function call korar porei function ta excute hoi |
+           //function jeikane call kora hoi seikanei execute hoi
+          //aktta function k onek bar call kora jai
+
+// demo(10,30);
+// document.write(demo(10,30));
+// var name = "Ridoy";
+//  var inname = demo(name);
+//  document.write(inname);
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

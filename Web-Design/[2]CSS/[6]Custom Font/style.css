@@ -1,0 +1,9 @@
+@font-face {
+    font-family: robotoCMS;
+    src: url("RobotoCondensed-Regular.ttf");
+}
+.name-style{
+    font-size: 40px;
+    font-family: robotoCMS;
+    color: red;
+}

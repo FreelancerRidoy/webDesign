@@ -1,0 +1,37 @@
+.div-one{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 100px;
+
+}
+
+.div-two{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+}
+.div-three{
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    border-radius: 10px 30px;
+}
+.div-four{
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    border-radius: 10px 30px 40px;
+}
+.div-five{
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    border-radius: 10px 30px 40px 50px;
+}

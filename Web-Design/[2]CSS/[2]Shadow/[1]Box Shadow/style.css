@@ -1,0 +1,45 @@
+
+.div-One{
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+    background-color: red;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 2px grey;
+/*Box Shadow
+1st value = left shadow
+2nd value =bottom shadow
+3rd value = koto tuku blur hove
+4th value = koto tuk jaiga gure hove
+5th value = color
+*/
+
+}
+.div-Two{
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+    background-color: red;
+    box-shadow: -5px -5px 7px 2px gray;
+    /*Box Shadow
+1st value = right shadow
+2nd value =top shadow
+3rd value = koto tuku blur hove
+4th value = koto tuk jaiga gure hove
+5th value = color
+*/
+}
+.div-Theee{
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+    background-color: red;
+    box-shadow: 0px 0px 7px 2px gray;
+    /*Box Shadow
+1st value And 2nd value 0 dile shadow ta 4 side jure hoi,4dike shadow dear jonno ai method use kota hoi
+3rd value = koto tuku blur hove
+4th value = koto tuk jaiga gure hove
+5th value = color
+*/
+
+}

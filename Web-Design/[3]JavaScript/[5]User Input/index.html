@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Input</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>First Name</th>
+        <td><input type="text" id="firstName" /></td>
+    </tr>
+    <tr>
+        <th>Last Name</th>
+        <td><input type="text" id="lastName" /></td>
+    </tr>
+    <tr>
+        <th >Full Name</th>
+        <td><input type="text" id="fullName" /></td>
+    </tr>
+    <tr>
+       <th></th>              <!-- function calling system One-->
+<!--        <td><input type="Submit" onclick="makeFullName();" id="btn" /></td>-->
+
+        <!-- function calling system Two-->
+        <td><input type="Submit" id="btn" /></td>
+    </tr>
+</table>
+
+
+
+<script>
+
+                    // function system One
+
+    // function makeFullName() {
+    //     var firstname = 'Haifru';
+    //     var lastName = 'Rahman';
+    //     var fullName = firstname+' '+lastName;
+    //
+    //     document.write(fullName);
+    //
+    // }
+ //========================================================================================
+
+                         // function system Two
+
+                       //. javascript er object sign
+                      //+ javascript er conkret sign
+
+                    //Anonemus function {nameless function}
+                   // object | id diya html element k dore aktta bariable e raklam
+                  //jokoni btn element er upor onclick gotonata gotbe tokoni function excute hove
+    // var btnClick =  document.getElementById('md');
+    // btn.onclick = function () {
+    //
+    //    var firstName = 'Hanifur';
+    //    var lastName = 'Rahman';
+    //    var fullname = firstName+' '+lastName;
+    //    document.write(fullname);
+    //
+    // };
+ // ========================================================================================
+                           //Dynamic Input
+                //btn tak dore aktta variable er modde raklam
+               //btn ta click hole aktta function call hove
+              //firstName and last name html tag er value niya 2 ta variable er modde raklam
+             //full name er modde valu hisave variable fullname pass kore dici {print result}
+    var btnClick = document.getElementById('btn');
+    btnClick.onclick = function () {
+
+        var firstName = document.getElementById('firstName').value;
+        var lastName = document.getElementById('lastName').value;
+        var fullName = firstName+' '+lastName;
+        document.getElementById('fullName').value = fullName;
+    }
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

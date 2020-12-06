@@ -1,0 +1,34 @@
+
+
+--------------------class 2T---------------------------
+==========================================================
+
+
+# document.getElementById("") = [aktta function],  id diya  element k dorve,
+
+
+2] java script er coe sovar nice liktte hoi,,link o sovar nice korte hoi |
+
+3] Variable = variable memory location er nam, variavle er modde jei value ta raka hove sei value ta ram er jei slot e takve oi slot er nam ta variabler er nam e defind hoye jave
+
+             Variable declaration major rules = 3 major rules for create variable for java script
+                              1] start with var sign
+                              2](a-z) ,(A-Z), (0-9), (_), ($) ,
+                              3] No Number in first
+
+             Variable declaration Standerd rules = 3 Standerd rules for create variable for java script
+                                          1] small letter
+                                          2] meaningFulll
+                                          3] readable
+
+ 4] Nam leker Standerd=========
+                        * variable = firstName / first    {Kemel Case}
+                        * input fild = first_name / first {Zen}
+                        * Folder = first-name / first
+                        * file = first-name / first
+                        * Id = firstName / first          {Kemel Case}
+
+ 5]2 ta variable k pasapasi raktte caile concreate kortte hove [concratanation symbol hocce (+)]
+
+ 6] DataType = datatyle automatik defind hoye jai,ty eta k  {loselycoupletype}
+

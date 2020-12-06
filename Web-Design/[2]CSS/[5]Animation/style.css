@@ -1,0 +1,53 @@
+
+@keyframes animOne {
+    from{background-color: blue;}
+    to{background-color: red;}
+    
+}
+
+.anim-one{
+    animation-name: animOne;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    margin: 10px;
+}
+
+/*==============================================================*/
+
+@keyframes animTwo {
+    0%{width: 400px;}
+    50%{width: 900px;}
+    100%{width: 400px;}
+}
+
+.anim-two{
+    animation-name: animTwo;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    margin: 10px;
+}
+
+/*==============================================================*/
+@keyframes animThree {
+    0%{left: 0px;}
+    50%{left: 900px;}
+    100%{left: 0px;}
+}
+.anim-three{
+    animation-name: animThree;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background-color: #ff3202;
+    margin: 10px;
+}
+
+/*==============================================================*/

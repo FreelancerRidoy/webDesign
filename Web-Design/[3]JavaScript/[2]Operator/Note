@@ -1,0 +1,29 @@
+
+
+--------------------class 2T---------------------------
+==========================================================
+
+ 1] What is operatore ? = operator hocce aktta syntex,jokon akta kaj korvo ,,kajta korar jonno vivinno doroner
+     task excute korar jonno jeisov sybmol use kortte hove takei  operator bole
+
+ 2] 2 ta variable k pasapasi raktte caile concreate kortte hove [concratanation symbol hocce (+)]
+
+
+ 3]Operator in javascript
+                         1] Arithmatic Operator
+                             *Binary (+, -, *, %)
+                             *Unnary (++, --, -)
+                         2] Assignment Operator (=, +=, -=, *=, /=, %= )
+                         3] Conditional Operator ( >, >=, <, <=, ==, !=, ===, !== )
+                         4] Logical Operator (&&, ||, !)
+                         5]Statement
+                               *Single Line Statement
+                                  # if
+                                  # if else
+                                  # if else if
+                                  # switch
+                               *Repeted Statement
+                                  # for
+                                  # while
+                                  # do while
+                                  # for in
