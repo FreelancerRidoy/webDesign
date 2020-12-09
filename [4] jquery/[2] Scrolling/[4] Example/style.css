@@ -1,0 +1,86 @@
+*{box-sizing: border-box;}
+
+body{
+
+}
+
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+[class*="col-"]{
+    /*border: 1px solid red;*/
+    float: left;
+}
+
+.header-top-height{height: 200px;}
+.menu-height{height: 50px;}
+.big-footer-height{height: 400px;}
+.footer-height{height: 1000px; background-color: black;}
+
+.row{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.color-1{
+    background-color: blueviolet;
+}
+.color-2{
+    background-color: greenyellow;
+}
+.color-3{
+    background-color: blue;
+}
+.color-4{
+    background-color: cornflowerblue;
+}
+.color-5{
+    background-color: darkkhaki;
+}
+
+
+.main-ul{
+    position: relative;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.main-li{
+    float: left;
+    width: 20%;
+}
+.main-a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding-top: 14px;
+    font-family: "Sitka Text";
+    height: 50px;
+    transition: .3s;
+    background-color: white;
+}
+.main-a:hover{
+    background-color: darkgray;
+}
+.sub-li{
+    display: none;
+}
+.main-li:hover .sub-li{
+    display: block;
+}

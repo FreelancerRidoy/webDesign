@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Struture</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-2 header-top-height color-4"></div>
+        <div class="col-10 header-top-height color-5"><h1 style="color: white;">Fixed Menu</h1></div>
+    </div>
+    <div class="row" id="rowMenu">
+        <div class="col-12 menu-height" id="menu">
+            <ul class="main-ul" id="mainUl">
+                <li class="main-li"><a href="#" class="main-a">Home</a></li>
+                <li class="main-li"><a href="#" class="main-a">About</a></li>
+                <li class="main-li"><a href="#" class="main-a">Services</a>
+                    <ul class="main-ul">
+                        <li class="sub-li"><a class="main-a" href="#">Services 1</a></li>
+                        <li class="sub-li"><a class="main-a" href="#">Services 2</a></li>
+                        <li class="sub-li"><a class="main-a" href="#">Services 3</a></li>
+                        <li class="sub-li"><a class="main-a" href="#">Services 4</a></li>
+                        <li class="sub-li"><a class="main-a" href="#">Services 5</a></li>
+                    </ul>
+                </li>
+                <li class="main-li"><a href="#" class="main-a">Blog</a></li>
+                <li class="main-li"><a href="#" class="main-a">Contact</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 big-footer-height">
+            <div class="col-4 big-footer-height color-1"></div>
+            <div class="col-4 big-footer-height color-2"></div>
+            <div class="col-4 big-footer-height color-3"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 footer-height"></div>
+    </div>
+</div>
+
+
+
+<script src="jquery/jquery-3.5.1.js"></script>
+<script src="js.js"></script>
+</body>
+</html>

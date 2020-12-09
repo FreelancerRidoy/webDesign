@@ -1,0 +1,19 @@
+=========setup codes==folder to repo========
+1st> git clone (repo URL Past here) >Enter
+2nd> Go to Created Folder for write uper code
+
+=========sent fils to github========
+3rd> git add .
+4th> git commit -m "Describtion abut updated files/folder"
+5th> git push
+  Work Done Updated
+
+=========Get Update files from github========
+
+1st> git pull
+	  Work Done Updated
+
+
+=======================
+Note : first repo create kortte hove github e, than jeikane repo ta create korvo system e  seikane ese git bash open kore
+       (git clone URL) dite hove . than ja korci ta github e sent kortte hove ,jodi git hub tteke namaite cai tyle (git pull)

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<form>
+
+<table>
+    <tr>
+        <td>First Name</td>
+        <td>
+            <input type="text" id="firstName">
+            <span id="firstNameError"></span>
+        </td>
+    </tr>
+    <tr>
+        <td>Last Name</td>
+        <td>
+            <input type="text" id="lastName">
+            <span id="lastNameError"></span>
+        </td>
+    </tr>
+    <tr>
+        <td>Email Address</td>
+        <td>
+
+            <input type="email" id="emailAddress">
+            <span id="emailAddressError"></span>
+        </td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td>
+            <input type="text" id="password">
+            <input type="checkbox" id="showHide"> Show Password
+            <span id="passwordError"></span>
+        </td>
+    </tr>
+    <tr>
+        <td>Confrim Password</td>
+        <td>
+            <input type="text" id="crnfriPassword">
+            <input type="checkbox" > Show Password
+            <span id="confrimPasswordError"></span>
+        </td>
+    </tr>
+    <tr>
+        <td>Gender Info</td>
+        <td>
+            <input type="radio">Male
+            <input type="radio">Female
+            <span id="genderInfoError"></span>
+        </td>
+    </tr>
+    <tr>
+        <td>District Name</td>
+        <td>
+            <select id="districtName">
+                <option id="noneDisplay">Select Your District</option>
+                <option id="chittagong">Chittagong</option>
+                <option id="Dhaka">Dhaka</option>
+                <option id="Brishal">Brishal</option>
+            </select>
+            <span id="districtError"></span>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" id="btn" value="Submit"></td>
+    </tr>
+
+</table>
+
+</form>
+ 
+
+
+
+
+<script src="jquery/jquery-3.5.1.js"></script>
+<script src="js.js"></script>
+
+</body>
+</html>
