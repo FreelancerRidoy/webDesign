@@ -7,13 +7,15 @@
 </head>
 <body>
 
-<form>
+
+
+<form method="post" action="" id="form" >
 
 <table>
     <tr>
         <td>First Name</td>
         <td>
-            <input type="text" id="firstName">
+            <input type="text" id="firstName" >
             <span id="firstNameError"></span>
         </td>
     </tr>
@@ -28,6 +30,7 @@
         <td>Email Address</td>
         <td>
 
+
             <input type="email" id="emailAddress">
             <span id="emailAddressError"></span>
         </td>
@@ -35,7 +38,7 @@
     <tr>
         <td>Password</td>
         <td>
-            <input type="text" id="password">
+            <input type="password" id="password">
             <input type="checkbox" id="showHide"> Show Password
             <span id="passwordError"></span>
         </td>
@@ -43,16 +46,15 @@
     <tr>
         <td>Confrim Password</td>
         <td>
-            <input type="text" id="crnfriPassword">
-            <input type="checkbox" > Show Password
+            <input type="password" id="confriPassword">
             <span id="confrimPasswordError"></span>
         </td>
     </tr>
     <tr>
         <td>Gender Info</td>
         <td>
-            <input type="radio">Male
-            <input type="radio">Female
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
             <span id="genderInfoError"></span>
         </td>
     </tr>
@@ -60,10 +62,10 @@
         <td>District Name</td>
         <td>
             <select id="districtName">
-                <option id="noneDisplay">Select Your District</option>
-                <option id="chittagong">Chittagong</option>
-                <option id="Dhaka">Dhaka</option>
-                <option id="Brishal">Brishal</option>
+                <option value=" ">Select Your District</option>
+                <option value="Chittagong">Chittagong</option>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Brishal">Brishal</option>
             </select>
             <span id="districtError"></span>
         </td>
@@ -76,7 +78,7 @@
 </table>
 
 </form>
- 
+
 
 
 
