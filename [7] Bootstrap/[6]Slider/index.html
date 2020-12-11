@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap 1st</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="style.css"/>
+
+
+</head>
+<body>
+
+<div class="container-fluid con-width">
+    <div class="row">
+        <div class="col-12">
+            <!--            Carosul indicator er part 3 ta
+                            1] Carousel inner
+                            2] Carousel control
+                            3] Carousel indicatoe
+            -->
+            <!--carousel = Enitialixationthat means eta bujacce ai div ta aktta carousel slider hold kortte jacce-->
+            <!--slide = image slide kore change hove-->
+            <!--data-bs-interval = image ta koto somor por change hove seta mili second e set kortte hove-->
+            <!--data-bs-interval = koto somoi por por chnage hove image ta-->
+            <!--every item wrape eatch image & active Onlyone item(image)what is view first time -->
+
+            <div id="mySlide" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
+                <!--                3] Carousel indicatoe-->
+                <ol class="carousel-indicators"><!--joto ta image takve totota serialy image takve-->
+                    <li data-bs-target="#mySlide" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#mySlide" data-bs-slide-to="1" class="active"></li>
+                    <li data-bs-target="#mySlide" data-bs-slide-to="2" class="active"></li>
+
+                </ol>
+                <!--                1] Carousel inner-->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/bac-3.jpg" alt="" class="img-responsive">
+                        <!--                        Content Part-->
+                        <div class="carousel-caption captipn-style">
+                            <h3>Heading Text Are Here</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem cumque doloremque enim
+                                illo iste
+                                laudantium, magnam natus necessitatibus nisi non odit officia reiciendis saepe sed sequi
+                                sunt, totam ullam.</p>
+                            <button type="button" class="btn btn-success">Read more..</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/bac-2.jpg" alt="" class="img-responsive">
+                        <!--                        Content Part-->
+                        <div class="carousel-caption captipn-style">
+                            <h3>Heading Text Are Here</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem cumque doloremque enim
+                                illo iste
+                                laudantium, magnam natus necessitatibus nisi non odit officia reiciendis saepe sed sequi
+                                sunt, totam ullam.</p>
+                            <button type="button" class="btn btn-success">Read more..</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/bacck.jpg" alt="" class="img-responsive">
+                        <!--                        Content Part-->
+                        <div class="carousel-caption captipn-style">
+                            <h3>Heading Text Are Here</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem cumque doloremque enim
+                                illo iste
+                                laudantium, magnam natus necessitatibus nisi non odit officia reiciendis saepe sed sequi
+                                sunt, totam ullam.</p>
+                            <button type="button" class="btn btn-success">Read more..</button>
+                        </div>
+                    </div>
+                </div>
+                <!--                2] Carousel control-->
+                <a href="#mySlide" class="carousel-control-prev" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#mySlide" class="carousel-control-next" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="bootstrap/js/jquery-3.5.1.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="js.js"></script>
+</body>
+</html>
